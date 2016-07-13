@@ -41,7 +41,7 @@ GEM
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
     byebug (9.0.5)
-    capistrano (2.15.9)
+    capistrano (2.14.2)
       highline
       net-scp (>= 1.0.0)
       net-sftp (>= 2.0.0)
@@ -161,7 +161,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  capistrano (~> 2.15, >= 2.15.9)
+  capistrano (= 2.14.2)
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails

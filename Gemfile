@@ -43,6 +43,4 @@ group :development, :test do
   gem 'spring'
 end
 
-group :development do
-  gem 'capistrano', '~> 2.15', '>= 2.15.9'
-end
+  gem 'capistrano', '2.14.2'

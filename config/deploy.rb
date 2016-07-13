@@ -17,7 +17,8 @@ role :app, domain
 role :db,  domain, :primary => true
 
 namespace :deploy do
+  desc 'Restart Pass'
   task :restart do
-    #run ""
+    run "echo 'Hey John!'"
   end
 end
