@@ -44,6 +44,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'capistrano', '2.14.2'
+  gem 'capistrano', '2.15.9'
   gem 'rvm-capistrano'
 end
