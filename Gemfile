@@ -43,4 +43,6 @@ group :development, :test do
   gem 'spring'
 end
 
+group :development do
   gem 'capistrano', '2.14.2'
+end
